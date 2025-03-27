@@ -9,6 +9,6 @@ package dao;
  * @author hp
  */
 public class PharmacyUtils {
-    public static String billPath = "C:\\Users\\hp\\Desktop\\Bills\\new";
+    public static String billPath = "C:\\Users\\hp\\Desktop\\Bills\\new"; // Add you own path
     
 }
