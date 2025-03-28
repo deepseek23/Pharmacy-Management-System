@@ -9,7 +9,7 @@ public class ConnectionProvider {
             Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/pharmacy?useSSL=false",
                 "root",
-                "tarun"
+                "tarun" //put the password that you have made in mysql server
             );
             return con;
         } catch (Exception e) { 
