@@ -10,7 +10,7 @@ public class Tables {
         try {
             Connection con = ConnectionProvider.getCon();
             if (con != null) {
-                Statement st = con.createStatement();
+                Statement st = con.createStatement();  //Executte this query one by one for database creation
 //                st.executeUpdate(
 //                    "CREATE TABLE IF NOT EXISTS appuser ("
 //                    + "appuser_pk INT AUTO_INCREMENT PRIMARY KEY, "
