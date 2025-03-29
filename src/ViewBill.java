@@ -109,7 +109,7 @@ public class ViewBill extends javax.swing.JFrame {
                     rs.getString("billId"),
                     rs.getString("billDate"),
                     rs.getString("totalPaid"),
-                    rs.getString("generated_by"),
+                    
                 });
             }
         } catch (Exception e) {
