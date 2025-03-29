@@ -438,11 +438,11 @@ public class SellMedicne extends javax.swing.JFrame {
                 Calendar cal = Calendar.getInstance();
                 String currentDate = myFormat.format(cal.getTime());
                 Connection con = ConnectionProvider.getCon();
-                PreparedStatement ps = con.prepareStatement("INSERT INTO bill (billId, billDate, totalPaid, generated_by) VALUES (?, ?, ?, ?)");
+                PreparedStatement ps = con.prepareStatement("INSERT INTO bill (billId, billDate, totalPaid) VALUES (?, ?, ?)");
                 ps.setString(1, billId);
                 ps.setString(2, myFormat.format(cal.getTime()));
                 ps.setDouble(3, finalTotalPrice);
-                ps.setString(4, username);
+                
                 ps.executeUpdate();
 
             } catch (Exception e) {
