@@ -496,7 +496,7 @@ public class SellMedicne extends javax.swing.JFrame {
             doc.add(tb1);
             doc.add(startline);
 
-            Paragraph contact = new Paragraph("Phone no. 9819307129");
+            Paragraph contact = new Paragraph("Phone no. 123456789");
             doc.add(contact);
 
             Paragraph thanksMsg = new Paragraph("Thank You, Please Visit Again");
